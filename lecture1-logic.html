@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,6 +14,97 @@
   </style>
 </head>
 <body>
-<!-- Lecture 1 content omitted here for brevity -->
+<div class="container">
+  <h1 class="text-center mb-4">Lecture 1 – Logic (Simplified Summary)</h1>
+
+  <div class="concept-section">
+    <h4>Goal:</h4>
+    <p>Learn how to express ideas precisely using logic and understand when an argument is valid or invalid.</p>
+
+    <h4>🔹 What is Logic?</h4>
+    <p>Logic is the study of how to think correctly. It helps us understand whether a statement or an argument makes sense and is based on truth.</p>
+
+    <h4>🔹 What is a Statement? (Also called a Proposition)</h4>
+    <p>A statement is any sentence that can be clearly labeled as either true (T) or false (F)—but not both at the same time.</p>
+    <ul>
+      <li>✅ “2 + 2 = 4” → True</li>
+      <li>✅ “Today is Sunday” → Depends on the day, but still a statement</li>
+      <li>✅ “Grass is green” → True</li>
+      <li>✅ “4 + 2 = 7” → False</li>
+      <li>❌ “Close the door!” → Command</li>
+      <li>❌ “x > 2” → Not complete without knowing x</li>
+    </ul>
+    <p>💡 Real-Life Example: "Rehman lives in Canada." → This is a statement. It can be checked to be true or false.</p>
+
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Logic_diagram.svg/640px-Logic_diagram.svg.png" alt="Logic Diagram">
+
+    <h4>🔹 Simple vs. Compound Statements</h4>
+    <ul>
+      <li><strong>Simple:</strong> “It is raining.”</li>
+      <li><strong>Compound:</strong> “It is raining AND it is cold.”</li>
+    </ul>
+
+    <h4>🔹 Logical Connectives (AND, OR, NOT)</h4>
+    <table class="table table-bordered">
+      <thead><tr><th>Symbol</th><th>Connective</th><th>Meaning</th><th>Example</th></tr></thead>
+      <tbody>
+        <tr><td>~p</td><td>NOT</td><td>Opposite of statement</td><td>If p = “It is sunny”, ~p = “It is not sunny”</td></tr>
+        <tr><td>p ∧ q</td><td>AND</td><td>Both must be true</td><td>“Ali is studying AND it is raining”</td></tr>
+        <tr><td>p ∨ q</td><td>OR</td><td>At least one is true</td><td>“Ali is at home OR at the gym”</td></tr>
+      </tbody>
+    </table>
+
+    <h4>🔹 Truth Values (Truth Table Basics)</h4>
+    <table class="table table-bordered">
+      <thead><tr><th>p</th><th>q</th><th>p ∧ q (AND)</th><th>p ∨ q (OR)</th></tr></thead>
+      <tbody>
+        <tr><td>T</td><td>T</td><td>T</td><td>T</td></tr>
+        <tr><td>T</td><td>F</td><td>F</td><td>T</td></tr>
+        <tr><td>F</td><td>T</td><td>F</td><td>T</td></tr>
+        <tr><td>F</td><td>F</td><td>F</td><td>F</td></tr>
+      </tbody>
+    </table>
+    <p>💡 Tip: AND is strict: both must be true. OR is friendly: just one is enough.</p>
+
+    <h4>🔹 Negation (~)</h4>
+    <p>Negation means flipping the truth value. If p = “It is raining” (T), then ~p = “It is not raining” (F)</p>
+
+    <h4>🔹 Symbolic Form of Statements</h4>
+    <p>Instead of writing full sentences, we use symbols:</p>
+    <ul>
+      <li>Let p = “It is hot”</li>
+      <li>q = “It is sunny”</li>
+      <li>“It is not hot” → ~p</li>
+      <li>“It is hot and sunny” → p ∧ q</li>
+      <li>“It is not hot but sunny” → ~p ∧ q</li>
+      <li>“It is neither hot nor sunny” → ~p ∧ ~q</li>
+    </ul>
+
+    <h4>🔹 Translating Real Sentences to Symbols</h4>
+    <ul>
+      <li>h = “Zia is healthy”</li>
+      <li>w = “Zia is wealthy”</li>
+      <li>s = “Zia is wise”</li>
+      <li>“Zia is healthy and wealthy but not wise” → (h ∧ w) ∧ ~s</li>
+      <li>“Zia is not wealthy but is healthy and wise” → ~w ∧ (h ∧ s)</li>
+    </ul>
+
+    <h4>🔹 Summary Checklist</h4>
+    <ul>
+      <li>✅ Identify statements</li>
+      <li>✅ Understand AND, OR, NOT</li>
+      <li>✅ Translate English to logic symbols</li>
+      <li>✅ Create simple truth tables</li>
+      <li>✅ Break down compound statements</li>
+    </ul>
+
+    <h4>🔸 Why It Matters in Real Life</h4>
+    <ul>
+      <li>💻 Used in computer science: decision-making in programming.</li>
+      <li>🧠 Used in everyday reasoning: understanding conditions and consequences.</li>
+      <li>⚖️ Helps in math, law, and philosophy.</li>
+    </ul>
+  </div>
+</div>
 </body>
 </html>
